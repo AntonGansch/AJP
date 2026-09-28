@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJP – Apps & Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">A</span>
+      <span>AJP</span>
+    </a>
+
+    <nav>
+      <button class="nav-btn active" data-filter="all">Alle</button>
+      <button class="nav-btn" data-filter="game">🎮 Spiele</button>
+      <button class="nav-btn" data-filter="app">💻 Apps</button>
+    </nav>
+
+    <a class="github-link" href="https://github.com/AntonGansch/AJP" target="_blank" rel="noopener">
+      GitHub ↗
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">AJP • C# • PROJECTS</p>
+        <h1>Apps & Games</h1>
+        <p class="hero-text">
+          Entdecke die Programme und Spiele aus dem AJP-Projekt.
+          Neue <strong>.exe</strong>-Dateien werden automatisch aus GitHub geladen.
+        </p>
+      </div>
+
+      <div class="hero-badge">
+        ⚡ LIVE
+        <br>
+        <small>aus GitHub</small>
+      </div>
+    </section>
+
+    <section class="toolbar">
+      <div class="search-wrap">
+        🔎
+        <input id="search" type="search" placeholder="Spiel oder App suchen...">
+      </div>
+
+      <button id="refresh" class="refresh-btn">↻ Aktualisieren</button>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2 id="section-title">Alle Projekte</h2>
+        <span id="count">0</span>
+      </div>
+
+      <div id="status" class="status">Lade Projekte aus GitHub…</div>
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>AJP</strong> – Programmierprojekte auf C#
+    ·
+    <span id="last-updated">Noch nicht geladen</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

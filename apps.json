@@ -1,0 +1,10 @@
+{
+  "_hinweis": "Der Dateiname muss exakt mit der .exe-Datei übereinstimmen. Die Website erkennt .exe-Dateien automatisch.",
+  "Beispiel.exe": {
+    "name": "Mein Programm",
+    "type": "app",
+    "description": "Beschreibung deines Programms.",
+    "version": "1.0.0",
+    "image": "images/Beispiel.png"
+  }
+}
